@@ -1,0 +1,20 @@
+.container {
+  /* display: grid;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  gap: 30px; */
+
+
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  /* 2 columns */
+  gap: 30px;
+  justify-content: center;
+}
+
+@media (max-width: 700px) {
+  .container {
+    grid-template-columns: 1fr;
+  }
+}
