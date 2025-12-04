@@ -1,0 +1,46 @@
+#card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+
+    cursor: pointer;
+
+    background-color: rgb(230, 220, 206);
+    border: 2px solid rgb(228, 164, 164);
+
+    height: 10rem;
+    width: 22rem;
+    padding: 20px;
+    border-radius: 13px;
+
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+    transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+#card-container:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25);
+    transform: translateY(-5px) scale(1.03);
+}
+
+.card-label {
+    font-size: 1.1rem;
+    color: #333333;
+}
+
+.card-input {
+    border-radius: 20px;
+    height: 40px;
+    width: 200px;
+    padding: 0 15px;
+    border: 1.5px solid rgb(100, 133, 209);
+    transition: border-color 0.3s, box-shadow 0.3s;
+    cursor: pointer;
+}
+
+.card-input:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.25);
+}
