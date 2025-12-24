@@ -1,0 +1,33 @@
+.custom-para {
+    padding: 15px 25px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    max-width: 400px;
+
+
+    background-color: #e6ffe6;
+    color: #006600;
+    border: 1px solid #99e699;
+    border-radius: 8px;
+
+    font-size: 1.1rem;
+    line-height: 1.6;
+    font-family: Arial, sans-serif;
+    text-align: center;
+
+    transition: all 0.2s ease-in-out;
+}
+
+.custom-para:hover {
+    background-color: #d9f7d9;
+    color: red;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+.custom-para:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(0, 112, 0, 0.5), 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #d9f7d9;
+    border-color: #006600;
+}
